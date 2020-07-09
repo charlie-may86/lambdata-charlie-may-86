@@ -1,4 +1,5 @@
 #Single function to take a list, turn it into a series and add it to a dataframe as a new column
+import pandas as pd
 
 def add_column(X, Y):
   '''
