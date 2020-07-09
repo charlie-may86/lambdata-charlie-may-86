@@ -1,3 +1,5 @@
+import pandas as pd
+
 def date_columns(X):
   '''
   Change the name of your date columne to 'Date'
