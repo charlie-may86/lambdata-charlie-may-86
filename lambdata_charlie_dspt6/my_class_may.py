@@ -6,13 +6,13 @@ class Sport():
         
 
         def is_outside(self):
-        if self.outside == True:
-            print(f'{self.name} is played outside.')
-        else:
-            print(f'{self.name} is played inside.')
+            if self.outside == True:
+                print(f'{self.name} is played outside.')
+            else:
+                print(f'{self.name} is played inside.')
 
 
 if __name__ == '__main__':
     
-    footy = Dog('footy', 11, True)
+    footy = Sport('footy', 11, True)
     breakpoint()
