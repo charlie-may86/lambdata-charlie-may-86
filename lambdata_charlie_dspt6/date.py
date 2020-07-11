@@ -2,8 +2,19 @@ import pandas as pd
 
 
 def date_columns(X):
-    '''
-    Change the name of your date columne to 'Date'
+    '''Identifies a date column and split dates ("MM/DD/YYYY", etc.) into new
+    columns that contain the year, month, and day.
+
+    Args:
+      X: The dataframe you are passing through.
+        note: name of date column should be 'Date'.
+
+    Returns:
+      The dataframe you pass through with three new columns.
+
+    Raises:
+      KeyError: 'Date' - if date column is not named 'Date'.
+
     '''
 
     #create a year column
