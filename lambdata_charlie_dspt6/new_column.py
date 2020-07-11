@@ -1,15 +1,19 @@
-#Single function to take a list, turn it into a series and add it to a dataframe as a new column
 import pandas as pd
 
-def add_column(X, Y):
-  '''
-  This function takes in a list and converts it to a 
-  pandas series and then adds it to a dataframe as a 
-  new column
-  '''
-  
-  #X = list
-  #Y = the dataframe you want to ammend the series to
-  new_column = pd.Series(X)
 
-  Y['new_column'] = new_column
+def add_column(list, df):
+    '''Turn a list into a series and at it to a dataframe.
+
+    Args:
+      list: The list.
+      df: The dataframe.
+
+    Returns:
+      The dataframe with the list as a new column
+
+    Raises:
+
+    '''
+    new_column = pd.Series(X)
+
+    Y['new_column'] = new_column
